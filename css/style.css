@@ -1,0 +1,502 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Raleway&family=Roboto:wght@300;400;500;700&family=Satisfy&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Barlow", sans-serif !important;
+    line-height: 1.7 !important;
+    color: #516171 !important;
+}
+
+:root{
+
+    --bg-color:#303952;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700 !important;
+    color: rgb(80, 78, 78) !important;
+}
+
+
+
+.bg-cover{
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+section{
+    padding: 80px 0px;
+    background-color: #fff;
+}
+
+
+
+/* NAVBAR */
+.top-nav {
+    background-color: var(--bg-color);
+    padding: 5px 0px;
+}
+
+.top-nav p {
+    margin-bottom: 0px;
+    display: inline-block;
+    margin-right: 16px;
+    color: #ffffff;
+}
+
+.top-nav i,
+.top-nav span {
+    vertical-align: middle;
+    font-size: 1.5rem;
+}
+
+.social-links a {
+    width: 34px;
+    height: 34px;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.4);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff !important;
+    font-size: 20px;
+    border-radius: 100%;
+    margin: 0px .1rem ;
+}
+
+.social-links a:hover {
+    background-color: #fff;
+    color: var(--bg-color) !important;
+}
+
+.navbar {
+    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link.active{
+    color: white!important;
+}
+
+.navbar-brand img{
+    height: 6rem;
+    width: 15rem;
+}
+
+.navbar-brand span {
+    color: #ff4d29;
+}
+
+.nav-link{
+    color: rgb(15, 15, 15) !important;
+    font-size: 1.6rem !important;
+    font-weight: 500 !important;
+    padding: 0.5rem 1.3rem !important;
+}
+
+.nav-link:hover{
+background-color: #596275 !important;
+}
+
+/* BTN  */
+
+.btn{
+    padding: 9px 24px !important;
+    font-size: 1.5rem !important;
+    font-weight: 500;
+}
+
+.btn-brand{
+    background-color: var(--bg-color)!important;
+    color: #ffffff !important;
+    border-color: var(--bg-color) !important;
+}
+
+.btn-brand:hover{
+    background-color: #4f5869 !important;
+    color: #ffffff !important;
+}
+
+/* SLIDER */
+.slide1{
+    background: linear-gradient(rgba(9,32,50,0.4),rgba(9,32,50,0.4)),url(../images/slide1.jpg);
+}
+
+.slide2{
+    background: linear-gradient(rgba(9,32,50,0.4),rgba(9,32,50,0.4)),url(https://surielementor.com/entox/wp-content/uploads/2021/12/img-banner-01.jpg);
+}
+
+.carousel-item{
+    height: 95rem;
+}
+
+@media screen and (max-width:750px) {
+    .carousel-item{
+        height: 40rem;
+    }
+}
+
+.slide-container{
+    height: 100%;
+}
+
+.slide-container h6{
+    font-size: 1.5rem;
+    margin-left: 2rem;
+}
+
+/* ABOUT US */
+.about h3{
+    color: #ff4d29 !important;
+    font-family: "Satisfy",sans-serif;
+    font-size: 2.5rem !important;
+}
+
+.about h1{
+    font-size: 4rem !important;
+    color: black !important;
+}
+
+.about p{
+    font-weight: 400 !important;
+    font-size: 1.5rem !important;
+}
+
+.about h5{
+    font-size: 2rem !important;
+    color: black !important;
+}
+
+.about-travel{
+    border-bottom: 1px solid #e6e9ef;
+}
+
+.about i{
+    font-size: 5rem !important;
+    color: #ff4d29 !important;
+}
+
+.about h4{
+    font-size: 2.5rem !important;
+    font-family: 300 !important;
+    color: black !important;
+}
+
+.about span{
+    color: #ff4d29 !important;
+    font-family: "Satisfy",sans-serif;
+}
+
+.about img{
+    width: 100%;
+    border-radius: 3%;
+}
+
+
+/* CAR-CARD */
+.car-card{
+ 
+}
+
+.card{
+    position: relative !important;
+    border-radius: 1rem !important;
+    height: 100% !important;
+    opacity: 0.5;
+    transition: all 1s ease;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.card:hover{
+    opacity: 1;
+}
+
+@media screen and (max-width:767px) {
+    .card{
+        opacity: 1;
+    }
+}
+
+.car-card h1{
+    color: #ff4d29 !important;
+    font-size: 4rem !important;
+    margin-bottom: 1rem;
+    font-family: "Satisfy",sans-serif;
+}
+
+.car-card h4{
+    font-size: 1.8rem !important;
+    margin-bottom: 2rem !important;
+}
+
+.card-title{
+    font-size: 4rem;
+}
+
+.card-title span{
+    color: #ff4d29;
+}
+
+.card-text{
+    font-size: 1.8rem !important;
+    color: #303952;
+}
+
+.card-btn{
+    background-color: #ff4d29 !important;
+    border: none !important;
+}
+
+.card-btn:hover{
+    background-color: #ff4d297e !important;
+}
+
+.card-icon{
+    font-size: 1.8rem !important;
+    color: rgb(114, 112, 112) !important;
+}
+
+.card-inner-text{
+    font-size: 1.4rem;
+    color: rgb(114, 112, 112) !important;
+    font-weight: 500 !important;
+    margin-top: 0.2rem;
+}
+
+
+/* PACKAGES */
+.packages-container{
+    margin: 0px 100px !important;
+}
+
+.packages h1{
+    color: #ff4d29 !important;
+    font-size: 4rem !important;
+    margin-bottom: 1rem;
+    font-family: "Satisfy",sans-serif;
+}
+
+.packages .card{
+    opacity: 1 !important;
+}
+
+.packages h4{
+    font-size: 1.8rem !important;
+    margin-bottom: 2rem !important;
+}
+
+.packages h5{
+    font-size: 2rem;
+}
+
+.packages span{
+    color: #ff4d29 !important;
+}
+
+.packages p{
+font-size: 1.3rem;
+margin-bottom: .3rem;
+}
+
+.packages img{
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+}
+
+.card-footer{
+    border: none !important;
+    background-color: white !important;
+}
+
+
+/* CLIENTS */
+.clients div{
+    height: 250px;
+    width: 100%;
+}
+
+.clients img{
+    height: 250px;
+    width: 100%;
+    filter: grayscale(70);
+    transition: 0.5s ease all;
+}
+
+.clients-img:hover {
+    filter: grayscale(0);
+}
+
+.clients h1{
+    color: #ff4d29 !important;
+    font-size: 4rem !important;
+    margin-bottom: 1rem;
+    font-family: "Satisfy",sans-serif;
+}
+
+.clients h4{
+    font-size: 1.8rem !important;
+    margin-bottom: 2rem !important;
+}
+
+/* SERVICES */
+.services-card{
+    width: 100%;
+    height: 100%;
+    background-color: #ff6348;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    transition: 0.5s all ease;
+}
+
+.services-card:hover{
+    transform: scaleY(1.1);
+}
+
+.services-card i{
+    padding: 2rem !important;
+    font-size: 4rem !important;
+    color: #ff4d29 !important;    
+}
+
+.margin-2{
+    border-radius: .6rem;
+}
+
+.services h1{
+    color: #ff4d29 !important;
+    font-size: 4rem !important;
+    margin-bottom: 1rem;
+    font-family: "Satisfy",sans-serif;
+}
+
+.services h4{
+    font-size: 1.8rem !important;
+    margin-bottom: 2rem !important;
+}
+
+.services-card h5{
+    font-size: 2.5rem;
+    color: rgb(255, 255, 255) !important;
+}
+
+.services-card p{
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 400 !important;
+}
+
+/* REVIEWS */
+#reviews{
+background: linear-gradient(rgba(9,32,50,0.8),rgba(9,32,50,0.8)),url(https://surielementor.com/entox/wp-content/uploads/2021/12/img-banner-01.jpg); 
+background-attachment: fixed;
+}
+
+.center img{
+    height: 18rem;
+    width: 18rem;
+    border: 6px solid #303952;
+    padding: .2rem;
+    background-color: white;
+}
+
+.center h1{
+    font-size: 2.6rem;
+    color: white !important;
+}
+
+.rating i{
+    font-size: 1.6rem;
+    color: rgb(223, 127, 18);
+}
+
+.center p{
+    color: white !important;
+    font-size: 1.5rem !important;
+
+}
+
+.center span{
+    color: #ff4d29;
+}
+
+/* FOOTER  */
+footer{
+    padding: 80px 0px;
+}
+
+.footer i{
+    color: #ff4d29;
+    font-size: 4.7rem;
+}
+
+.footer h5{
+    font-size: 1.9rem;
+    color: black !important;
+}
+
+.footer h5 a{
+    text-decoration: none;
+    color: black !important;
+    font-family: "Barlow",sans-serif;
+}
+
+.footer h5 a:hover{
+    text-decoration: underline !important;
+}
+
+.footer input{
+    width: 100% !important;
+}
+
+::placeholder{
+    font-size: 1.5rem;
+}
+
+.footer input{
+    font-size: 1.5rem;
+}
+
+.footer .btn{
+    padding: 1rem 1.5rem;
+    background-color: #ff4d29 !important;
+    color: white !important;
+}
+
+.footer h1{
+    font-size: 2.6rem;
+    color: rgb(0, 0, 0) !important;
+}
+
+.footer span{
+    color: #ff4d29;
+}
+
+.outstation i{
+    font-size: 2rem;
+}
+
+.outstation a{
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: black !important;
+    font-weight: 500;
+}
+
+.outstation a:hover{
+    text-decoration: underline;
+}
